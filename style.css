@@ -1,0 +1,172 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    display: flex;
+    height: 70%;
+    background: #FFCD9E;
+}
+
+.left-header {
+
+    width: 60%;
+    padding: 40px;
+    padding-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.left-header h1 {
+
+    width: 562px;
+height: 108px;
+top: 83px;
+left: 136px;
+
+
+    font-family: Inter;
+    font-size: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.left-header h2
+{
+    width: 227px;
+height: 81px;
+top: 315px;
+left: 136px;
+font-family: Inter;
+font-size: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+
+}
+
+.left-header p {
+
+    width: 495px;
+    height: 81px;
+    top: 219px;
+    left: 136px;
+    font-family: Inter;
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: left;
+    font-size: 20px;
+    color: #484848;
+
+}
+
+.input-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+
+}
+#textbox
+{
+    width: 344px;
+    height: 50px;
+    top: 411px;
+    left: 136px;
+    border-radius: 8px;
+    border: 4px;
+    text-align: left;
+    padding-left: 20px;
+}
+#p2
+{
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+letter-spacing: 0em;
+text-align: center;
+width: 344px;
+height: 50px;
+top: 411px;
+left: 136px;
+
+}
+.left-header button {
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: black;
+    color: #e0e0e0;
+
+    width: 216px;
+height: 50px;
+top: 411px;
+left: 496px;
+border-radius: 8px;
+
+
+}
+
+.right-header {
+    width: 40%;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFCD9E; ;
+
+}
+
+.right-header img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer {
+    display: flex;
+    height: 30%;
+    background-color: #333;
+    color: #fff;
+    align-items: center;
+
+    
+}
+
+.footer-left,
+.footer-right {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:80px;
+    
+}
+.footer-right {
+    flex: 1;
+    padding: 20px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:80px;
+    
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer li {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
